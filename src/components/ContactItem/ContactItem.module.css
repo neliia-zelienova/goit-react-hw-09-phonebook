@@ -1,0 +1,10 @@
+.contacts__name {
+  padding-right: 10px;
+  display: inline-block;
+  min-width: 150px;
+}
+.contacts__number {
+  padding-right: 10px;
+  display: inline-block;
+  min-width: 150px;
+}
