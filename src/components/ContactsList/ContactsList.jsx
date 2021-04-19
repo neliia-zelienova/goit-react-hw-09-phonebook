@@ -12,9 +12,6 @@ const ContactsList = () => {
   const contacts = useSelector((state) =>
     contactsSelectors.getVisibleContacts(state)
   );
-  const isLoading = useSelector((state) =>
-    contactsSelectors.getIsLoading(state)
-  );
 
   const [edit, setEdit] = useState(false);
   const [editingID, setEditingID] = useState(null);
