@@ -12,7 +12,7 @@ const PhoneBook = () => {
     [dispatch]
   );
 
-  useEffect(() => getContacts(), []);
+  useEffect(() => getContacts());
 
   return (
     <>
